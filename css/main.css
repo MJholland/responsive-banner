@@ -1,5 +1,5 @@
 html {
-  font-family: georgia, serif;
+  font-family: Georgia, serif;
 }
 
 body {
@@ -7,7 +7,7 @@ body {
 }
 
 h1,
-p{
+p {
   color: #fff;
 }
 
@@ -20,4 +20,8 @@ p{
   color: rgba(73, 85, 98, 1);
   border-color: #fff;
   background-color: #fff;
+}
+
+@media only screen and (min-width: 60em) {
+
 }
