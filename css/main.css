@@ -1,5 +1,5 @@
 html {
-  font: georgia, serif;
+  font-family: georgia, serif;
 }
 
 body {
@@ -7,7 +7,17 @@ body {
 }
 
 h1,
-p,
+p{
+  color: #fff;
+}
+
 .btn {
   color: #fff;
+  border-color: #97a49b;
+}
+
+.btn:hover {
+  color: rgba(73, 85, 98, 1);
+  border-color: #fff;
+  background-color: #fff;
 }
