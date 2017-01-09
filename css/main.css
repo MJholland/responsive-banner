@@ -24,4 +24,22 @@ p {
 
 @media only screen and (min-width: 60em) {
 
+  section {
+    position: absolute;
+    left: 0;
+    bottom: 0;
+    background-image: linear-gradient(rgba(73, 85, 98, 0),rgba(73, 85, 98, 1));
+  }
+
+  header {
+    position: relative;
+  }
+
+  p {
+    max-width: 25em;
+  }
+
+  .btn {
+    border-color: #fff;
+  }
 }
